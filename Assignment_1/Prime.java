@@ -4,7 +4,7 @@ public class Prime
 public static void main(String args[])
 {
    int n,i;
-int flag=0;
+   int flag=0;
    System.out.println("Enter no :");
    Scanner sc=new Scanner(System.in);
    n=sc.nextInt();

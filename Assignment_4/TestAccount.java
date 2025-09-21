@@ -2,7 +2,7 @@ import java.util.*;
 abstract class BankAccount
 {
 Scanner sc=new Scanner(System.in);
-abstract void deposite();
+abstract void deposite(); 
 abstract void withdraw();
 abstract void checkBalance();
 void getDetails()
@@ -21,7 +21,7 @@ class Saving extends BankAccount
 {
 Scanner s=new Scanner(System.in);
 int amount,withdraw,balance;
-void deposite()
+void deposite() 
 {
 System.out.println("Enter Amount :");
  amount=sc.nextInt();
